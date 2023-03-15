@@ -1,0 +1,658 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+
+}
+header{
+    width:100%;
+    height:90px;
+    background:white;
+    
+    position:fixed;
+    top:0px;
+    
+}
+.checkbtn{
+   font-size: 30px;
+   color:#2d2d2d;
+   float:right;
+   margin-right: 30px;
+   margin-top:30px;
+   cursor:pointer;
+   display: none;
+   
+}
+#check{
+    display: none;
+    
+}
+header div{
+    float:left;
+}
+header .nav{
+    position:absolute;
+    right:10px;
+    top:10px;
+
+}
+header .logo img{
+    padding-left: 200px;
+    margin-top:10px;
+
+}
+
+header .nav ul{
+    list-style:none;
+    display: flex;
+    padding-right:185px;
+    padding-top:12px;
+}
+header .nav ul li{
+    padding:15px;
+    text-transform:uppercase;
+    font-size:12px;
+}
+
+header .nav ul li a{
+    text-decoration:none;
+    color:rgb(48, 47, 47);
+    font-weight:bold;
+}
+
+header .nav ul li a:hover{
+    color:#7f97ff;
+}
+
+.checkbtn{
+
+    display: none;
+    font-size: 30px;
+    color:rgba(0,0,0,0.9);
+    float:right;
+    line-height:80px;
+    margin-right:-170px;
+
+}
+#check{
+    display: none;
+
+}
+
+
+
+
+/*Section One Start*/
+.sectionone{
+    width:90%;
+    height: 650px;
+   margin:40px auto;
+   border-radius:15px;
+    background:#f9f9ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 30px;
+
+
+}
+section .text{
+    width:40%;
+
+}
+section .text img{
+    width:100%;
+    height:100%;
+}
+section .text h4{
+    color:rgb(51, 49, 49);
+    font-weight:normal;
+    letter-spacing:1px;
+    
+}
+section .text h1{
+    font-size:2rem;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color: #2d2d2d;
+    margin-top: 10px;
+    margin-bottom:13px;
+}
+
+section .text p{
+    width:70%;
+    color:gray;
+    margin-bottom: 40px;
+}
+   
+section .text .btn1{
+    text-decoration:none;
+    background:linear-gradient(120deg,#4be6e6,#93f466);
+    padding:10px 15px;
+    border-radius: 20px;
+    color:#c21b90;
+    font-size:15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.1);
+    
+}
+
+/*Section two Start*/
+.sectiontwo{
+    width:90%;
+    height:550px;
+    margin:20px auto;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    
+    
+    border-radius:15px;
+   
+
+    background:#f9f9ff;
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.1);
+}
+
+/*Section three Start*/
+
+.sectionthree{
+    width:90%;
+    height:850px;
+    margin:30px auto;
+    padding:20px;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background:#f9f9ff;
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.1);
+}
+.sectionthree h2{
+    font-size:2rem;
+    color:#2d2d2d;
+    letter-spacing:0.5px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.sectionthree .pera{
+    width:500px;
+    color:rgb(192, 179, 179);
+    margin-top: 10px;
+}
+
+.boxsection{
+    width:70%;
+    height: 600px;
+    margin:100px auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+   
+    
+   
+    
+
+
+
+}
+.boxsection .box{
+    width:250px;
+    height:217px;
+    display:flex;
+    flex-direction: column;
+    
+   
+    
+    justify-content:center;
+    align-items: center;
+    margin:15px;
+}
+.boxsection .box i{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.boxsection .box h1{
+    font-size:2rem;
+}
+.boxsection .box p{
+    color:rgb(138, 132, 132);
+    margin-top:10px;
+    padding:10px;
+
+}
+.boxsection .box:hover{
+    background:#ffff;
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.1);
+    border-radius:10%;
+    
+}
+/* sectionfour start */
+
+.sectionfour{
+    width:100%;
+    height:300px;
+    background-image:linear-gradient(to left, rgb(28, 143, 143),rgb(40, 160, 40));
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sectionfour .namber{
+    padding:50px;
+    text-align: center;
+    color:#ffff;
+}
+.sectionfour .namber h1{
+    font-size:2rem;
+    margin-bottom:10px;
+}
+.namber p{
+    letter-spacing:0.5px;
+}
+
+/*sectionfive start*/
+
+.sectionfive{
+    width:90%;
+    margin:30px auto;
+   
+    
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    background:#f9f9ff;
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.1);
+    border-radius: 10px;
+    
+
+}
+.sectionfive .text3{
+    margin:100px auto;
+    text-align:center;
+}
+
+.sectionfive .text3 h1{
+    font-size: 2rem;
+    color:#2d2d2d;
+
+}
+
+.sectionfive .text3 p{
+    color:rgb(172, 163, 163);
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+}
+
+.allimage{
+    width:80%;
+    height:800px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    margin:150px auto;
+
+}
+.allimage .imgg{
+    width:340px;
+    height:339px;
+    text-align: center;
+    
+    
+ 
+    
+}
+
+.allimage .imgg h1{
+    margin-top:10px;
+    opacity: 0.9;
+}
+
+.allimage .imgg figure{
+    background:linear-gradient(40deg, #8490ff 40%,#62bdfc 100%);
+    width:340px;
+    height:339px;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+.allimage .imgg figure img:hover{
+    opacity:0.2;
+}
+
+
+/*section six start*/
+
+.sectionsix{
+    width:90%;
+    height:700px;
+    margin:30px auto;
+} 
+
+.sectionsix .texthead4{
+    text-align: center;
+}
+.texthead4 h1{
+    font-size: 2rem;
+    color:#2d2d2d;
+    margin:10px;
+}
+.texthead4 p{
+    color:gray;
+}
+
+.sectionsix .cardarea{
+    width:75%;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin:100px auto;
+}
+.sectionsix .card{
+    width:300px;
+    height:450px;
+    background:rgb(249,249,255);
+    text-align: center;
+    line-height: 50px;
+    border:1px solid rgba(0,0,0,0.1);
+}
+
+.sectionsix .card h1{
+    font-size: 2rem;
+    margin-top: 15px;
+    color:#2d2d2d;
+}
+.sectionsix .card h2{
+    color:#2d2d2d;
+    margin-top: -13px;
+    
+}
+
+.sectionsix .card input{
+   background:linear-gradient(120deg, rgb(33, 177, 146),rgb(35, 148, 35));
+   color:#ffff;
+   outline:none;
+   border:1px solid white;
+   padding:7px 55px;
+   border-radius: 4px;
+   text-align: center;
+   font-size:16px;
+   font-weight:700px;
+   cursor:pointer;
+
+
+}
+
+.sectionsix .card:hover{
+    background:#8293ff;
+    color:white;
+    transition:all 0.8s ease-in;
+    transform:scale(1.05);
+    border:1px solid rgba(130,147,255,0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+}
+
+/*footer start */
+
+footer{
+    width:100%;
+    height:300px;
+    background-color: rgb(4,9,30);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footerparent{
+    width:80%;
+    height:auto;
+    margin:0px auto;
+   
+   
+    display:flex;
+    justify-content:space-around;
+
+}
+footer .footerparent p{
+    color:rgb(153, 148, 148);
+    margin-top: 10px;
+}
+.footer1 input{
+    outline: none;
+    border:none;
+    padding:8px 50px;
+    margin-top: 7px;
+    background:#62bdfc;
+}
+.footer1 button{
+    padding: 7px 10px;
+    text-transform: uppercase;
+    background:#62bdfc;
+    cursor:pointer;
+}
+.footer1 i{
+    font-size:18px;
+    margin:5px;
+    cursor:pointer;
+}
+.footer1 i{
+    color:#2d2d2d;
+}
+.footer1 .fab fa-facebook-f:hover{
+    color:red;
+}
+
+
+@media (max-width:768px){
+    header{
+        width:100%;
+        height:90px;
+    }
+    header .logo img{
+        width:170px;
+        height:80px;
+        margin-left:30px;
+        padding:15px;
+
+        
+    }
+    .checkbtn{
+        display:block;
+    }
+
+   
+    header .nav ul{
+        position:fixed;
+        width:100%;
+        height:100vh;
+        background:gray;
+        top: 100px;
+        left:-200%;
+        flex-direction: column;
+        transition:all .2s;
+    }
+    header .nav ul li{
+        line-height: 20px;
+        clear:both;
+        margin-top:15px;
+    }
+    #check:checked ~ ul{
+        left:0px;
+    }
+}
+
+@media (max-width:768px){
+    .sectionone{
+        width:100%;
+        height:auto;
+        display: block;
+        margin-top: 50px auto;
+        
+        
+       
+       
+
+    }
+    .text{
+        width:100%;
+        margin:50px auto;
+        
+        
+        
+        padding:0px;
+    }
+    .text h4{
+        font-size: 15px;
+
+    }
+    .sectionone .text h1 {
+        font-size: 20px;
+        
+    }
+    .sectionone .text img{
+        max-width: 100%;
+        margin-top:10px;
+        height:auto;
+        
+        
+    }
+
+
+
+    .sectiontwo{
+        display:block;
+        width:100%;
+        height:100vh;
+       position:relative;
+       top:400px;
+    }
+
+    .sectiontwo .text{
+        width:100%;
+        position:relative;
+        left:0px;
+        text-align: center;
+    }
+   
+
+    .sectiontwo .text h4{
+        font-size:15px;
+
+
+    }
+
+    .sectiontwo .text h1{
+        font-size:20px;
+
+    }
+    .sectiontwo .text p{
+        width:80%;
+        margin:auto;
+        margin-bottom: 20px;
+
+    }
+
+    .sectionthree{
+        width:100%;
+        height:auto;
+        position:relative;
+        top:300px;
+    }
+    .sectionthree h2{
+        font-size:20px;
+        color:#2d2d2d;
+
+    }
+    .sectionthree .pera{
+        width:80%;
+        margin:20px auto;
+
+    }
+
+    .sectionfour{
+        width:100%;
+        height:200px;
+        position:relative;
+        top:900px;
+    }
+    .sectionfour .namber{
+        width:115px;
+        height:100px;
+        position: relative;
+        top: -50px;
+        right: 30px;
+    }
+    .sectionfour .namber h1{
+        font-size:25px;
+    }
+    .sectionfour .namber p{
+        font-size: 15px;
+    }
+
+
+
+    .sectionfive{
+        width:100%;
+        height:auto;
+        position:relative;
+        top:950px;
+    }
+
+    .sectionfive .text3{
+        width:100%;
+        height:auto;
+
+    }
+    .sectionfive .text3 h1{
+        font-size:25px;
+    }
+    .sectionfive .text3 p{
+        font-size:15px;
+    }
+    .sectionfive .allimage .imgg{
+        margin-top:40px;
+    }
+   
+
+
+    .sectionsix{
+        width:100%;
+        height:100vh;
+        position:relative;
+        top:2400px;
+    }
+    .sectionsix .texthead4 p{
+        width: 80%;
+        margin:auto;
+
+    }
+    .sectionsix .cardarea .card{
+        margin-top:50px;
+    }
+    
+    
+    
+
+    footer{
+        width:100%;
+        height:100vh;
+        position:relative;
+        top: 3700px;
+    }
+
+    footer .footerparent{
+        display:block;
+        position:relative;
+        top:50px;
+
+    }
+
+}
